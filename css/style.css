@@ -150,3 +150,68 @@ nav {
     color: #FFFFFF;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
 }
+
+.reason {
+    padding: 18px 0 64px 0;
+}
+
+.label {
+    margin: 0 auto;
+    width: 113px;
+    height: 24px;
+    padding: 5px 12px;
+    background-color: #000000;
+    font-weight: 400;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.title {
+    margin-top: 32px;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.reason .reasons_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.reason .reasons_block .reasons_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 116px;
+    height: 116px;
+    background: #1EACC7;
+    margin-right: 25px;
+    border-radius: 100%;
+}
+
+.reason .reasons_block .reasons_descr {
+    width: 371px;
+}
+
+.reason .reasons_block .reasons_descr .reasons_subtitle {
+    font-size: 17px;
+    line-height: 21px;
+    align-items: center;
+    color: #1EACC7;
+}
+
+.reason .reasons_block .reasons_descr .reasons_text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    align-items: center;
+    color: #202020;
+}
